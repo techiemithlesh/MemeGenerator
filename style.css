@@ -1,0 +1,40 @@
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.container{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.meme_container{
+    /* background: #ccc; */
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.meme_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+button{
+    padding: 12px;
+    cursor: pointer;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    color: #fff;
+    
+}
